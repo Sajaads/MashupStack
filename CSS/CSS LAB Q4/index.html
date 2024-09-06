@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top">
+        <form>
+            <label for="show">show</label>
+            <select id="show">
+                <option selected>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+            </select>
+            <label for="entries">entries</label>
+        </form>
+        <p>Customer <b>Details</b></p>
+        <input type="text" id="search" placeholder="search">
+    </div>
+    <table>
+
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Pincode</th>
+            <th>Country</th>
+            <th>Actions</th>
+        </tr>
+
+
+        <tr>
+            <td>1</td>
+            <td>Thomas Hardy</td>
+            <td>89 Chiarsco Rd.</td>
+            <td>Portland</td>
+            <td>91219</td>
+            <td>USA</td>
+            <td>
+                <span class="icon eye">&#128065;</span>
+                <span class="icon edit">&#9998;</span>
+                <span class="icon delete">&#128465;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maria Anders</td>
+            <td>Obere Str.57</td>
+            <td>Berlin</td>
+            <td>12209</td>
+            <td>Germany</td>
+            <td>
+                <span class="icon eye">&#128065;</span>
+                <span class="icon edit">&#9998;</span>
+                <span class="icon delete">&#128465;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fran Wilson</td>
+            <td>C/Araquil,67</td>
+            <td>Madrid</td>
+            <td>28023</td>
+            <td>Spain</td>
+            <td>
+                <span class="icon eye">&#128065;</span>
+                <span class="icon edit">&#9998;</span>
+                <span class="icon delete">&#128465;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dominic Perrier</td>
+            <td>25,rue Lauriston</td>
+            <td>Paris</td>
+            <td>75016</td>
+            <td>France</td>
+            <td>
+                <span class="icon eye">&#128065;</span>
+                <span class="icon edit">&#9998;</span>
+                <span class="icon delete">&#128465;</span>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Martin Blank</td>
+            <td>Via Monteblanco 34</td>
+            <td>Turin</td>
+            <td>10100</td>
+            <td>Italy</td>
+            <td>
+                <span class="icon eye">&#128065;</span>
+                <span class="icon edit">&#9998;</span>
+                <span class="icon delete">&#128465;</span>
+            </td>
+        </tr>
+
+    </table>
+    <div class="bottom">
+        <p>Showing <b>5</b> out of <b>25</b> entries</p>
+        <div class="btn">
+            <button>Previous</button>
+            <button class="a">1</button>
+            <button class="b">2</button>
+            <button class="c">3</button>
+            <button class="active">4</button>
+            <button class="d">5</button>
+            <button>Next</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top form {
+    align-items: center;
+    margin-left: 175px;
+}
+
+.top p {
+    font-size: 32px;
+    margin-left: 0px;
+}
+
+.top #search {
+    margin-right: 195px;
+}
+
+.top label,
+.top select,
+.top input {
+    margin: 0 5px;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom p {
+    margin-right: 570px;
+}
+
+.bottom button {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.bottom .btn {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bottom button.a,
+.b,
+.c,
+.d {
+    border-radius: 50%;
+}
+
+.bottom button.active {
+    background-color: #00f;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon {
+    font-size: 18px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.icon.eye {
+    color: #00f;
+}
+
+.icon.edit {
+    color: #ffa500;
+}
+
+.icon.delete {
+    color: #f00;
+}
